@@ -2,11 +2,6 @@
 
 class PrimeFactors {
 
-    public function __construct()
-    {
-        //
-    }
-    
     public function generate($number)
     {
         $primes = [];

@@ -60,7 +60,7 @@ class BowlingGame {
 
     private function isSpare($roll)
     {
-        return $this->rolls[$roll] + $this->rolls[$roll + 1] === 10;
+        return ($this->rolls[$roll] + $this->rolls[$roll + 1]) === 10;
     }
 
     private function spareBonus($roll)

@@ -34,7 +34,7 @@ class BowlingGameSpec extends ObjectBehavior {
 
     public function it_awards_a_two_roll_bonus_for_a_strike_in_the_previous_frame()
     {
-        $this->rollStrike(10);
+        $this->rollStrike();
         $this->roll(7);
         $this->roll(2);
         $this->rollTimes(17, 0);

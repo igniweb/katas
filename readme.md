@@ -2,6 +2,11 @@
 
 Properties of https://github.com/laracasts/Code-Katas-in-PHP
 
+## Install
+
+    composer install
+    vendor/bin/phpspec run
+
 ## Notes for RomanNumeralsConverter
 
     1    => I

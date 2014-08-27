@@ -45,3 +45,7 @@ Properties of https://github.com/laracasts/Code-Katas-in-PHP
         - 10
         - 2
         - 4 // 22
+
+## Notes for StringCalculator
+
+    StringCalculator::add('1,2,3\n1000') => 6
